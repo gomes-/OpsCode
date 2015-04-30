@@ -17,12 +17,14 @@ $vagrant plugin install vagrant-omnibus
 Use the appropriate file from repository.
 
 Bento-Win: Run from Windows
+
 Bento-Linux: Run from Linux
 
 Make sure you install the Chef keys and edit the file.
 
 #Run
 $vagrant up
+
 $vagrant ssh
 
 
@@ -31,4 +33,5 @@ $vagrant ssh
 $vagrant destroy
 
 $knife node delete server -y
+
 $knife client delete server -y
